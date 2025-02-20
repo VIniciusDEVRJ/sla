@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de cliente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="img/Livraria.png" alt="Logo da Livraria Solari">
+        <h1>Livraria Solari</h1>
+    </header>
+    <fieldset>
+        <label> <strong> Cadastrar Clientes</strong></label>
+        <hr>
+        <form action="salvarcliente.php" method="post">
+            <b>Digite CPF Do Cliente:</b>
+            <input type="text" name="cpf" required size="15"> <br> <br>
+            
+            <b>Digite o Nome do Cliente</b>
+            <input type="text" name="nome" size="15" required> <br> <br>
+            
+            <b>Digite o Sobrenome Do Cliente</b>
+            <input type="text" name="sobrenome" size="15"> <br> <br>
+            
+            <b>Data de Nascimento</b>
+            <center> <input type="date" name="data_nasc" size="15">  <br> <br> </center>
+            
+            <b>Rua</b>
+            <input type="text" name="rua" size="15"> <br> <br>
+            
+            <b>Nº</b>
+            <input type="text" name="numero" size="15"> <br> <br>
+            
+            <b>Complemento</b>
+            <input type="text" name="complemento" size="15"> <br> <br>
+            
+            <b>Bairro</b>
+            <input type="text" name="bairro" size="15"> <br> <br>
+            
+            <b>Cidade</b>
+            <input type="text" name="cidade" size="15"> <br> <br>
+        
+            <b>Telefone</b>
+            <input type="text" name="telefone" size="15"> <br> <br>
+        
+            <b>Celular</b>
+            <input type="text" name="celular" size="15"> <br> <br>
+            
+            <b>Email</b>
+            <input type="text" name="email" size="15"> <br> <br>
+        
+            <b>Estado</b>
+            <input type="text" name="estado" size="15"> <br> <br>
+            
+            <b>RG</b>
+            <input type="text" name="rg" size="15"> <br> <br>
+            
+            <center> <input type="submit" name="Cadastrar" value="Cadastrar"> </center>
+        </form>
